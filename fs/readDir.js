@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-fs.readdir("../", (err, data) => {
+fs.readdir(__dirname, (err, data) => {
   if (err) throw err;
 
   data.forEach((files) => {
