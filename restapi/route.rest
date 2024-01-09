@@ -1,0 +1,26 @@
+### acessando via GET
+GET http://localhost:3000/subscribers
+### acessando via GET com ID
+GET http://localhost:3000/subscribers/659ca43d6c1d1f8e83764f17
+### acessando via POST
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "userName": "Seu zé",
+    "userChannel": "hcode"
+}
+### acessando via PUT
+PUT http://localhost:3000/subscribers/:id
+### acessando via DELETE
+DELETE http://localhost:3000/subscribers/659ca7cbc5ff47166b74dc01
+### acessando via Patch
+PATCH  http://localhost:3000/subscribers/659ca21a35f1efdc492a2730
+Content-Type: application/json
+{
+    "userName": "zé"
+}
+
+
+
+
